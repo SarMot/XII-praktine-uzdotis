@@ -1,96 +1,201 @@
-html{
-    font-size: 18px;
-    height: 100%;
-}
-body{
-    margin: 0 auto;
-    min-height: 100%;
-    max-width: 1920px;
-    background-color: #FFFFF;
-    font: normal normal normal 1rem/1.1167 Gill Sans MT
-}
-.h1{
-    font-size: 5.6667rem;
-}
-.container-up {
-    width: 100%;
-    height: 27.1111rem;
-    background-color:#060606 ;
-    color: #FFFFFF;
-}
-.container-menu{
-    width: 100%;
-    height: 5.2222rem;
-    color:#FFFFFF;
-    font-size: 0.7778rem;
 
-}
-.container-middle{
-    width: 22.08%;
-    padding-left: 6.1111rem;
-    height: 19.3889rem;
-    background-color:#FFFFFF ;
-}
+<style>
+  html{
+      font-size: 18px;
+       height: 100%;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    h3{
+        font-size: 2.8333rem;
+        margin:0;
+    }
+   
+   
+   .container{
+       display: block;
+       margin: auto;
+       width: 1920px;
+       height: 100%;
+    }
+
+   .header{
+       width: 100%;
+       height: 94px;
+       padding-left: 92.4%;
+       padding-top: 39px;
+       background-color: #060606;
+       color: #ffffff;
+       font-size: 0.7778rem;
+    }
+    .container1{
+        width: 100%;
+        height: 394px;
+        padding-top: 90px;
+        padding-left: 105px;
+        background-color: #060606;
+        color: #ffffff;
+        font-size: 102px;
+        font-weight: 700;
+    }
+    .container2{
+        width: 100%;
+        height: 69.2778rem;
+        background-color: #ffffff;
+    }
+    .note{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width: 22.0833%;
+        height: 11.4444rem;
+        margin-top: 8.5rem;
+        margin-left: 5.7292%;
+        background-color: #ffffff;
+        font-size: 4rem;
+        font-weight: 700;
+
+    }
+    .note1{
+        width: 100%;
+        height: 5.7222rem;
+        color: #060606;
+        alignment:left;
+    }
+    .note2{
+        width: 61.7924%;
+        height: 5.7222rem;
+        color:#F5A623 ;
+        alignment:left;
+    }
+    .note3{
+        width: 38.2076%;
+        height: 5.7222rem;
+        color: #060606;
+        alignment:left;
+    }
+    .contact-form{
+        display: block;
+        position: absolute;
+        width: 62.6302%;
+        height: 38.5556rem;
+        left:5.6%;
+        border: 0;
+        border-bottom: solid 1px grey;
+        padding-bottom: 6px ;
+        padding-left: 0 ;
+
+    }
+    label{
+        display: block;
+        font-size: 1.3889rem;
+        font-weight: 700;  
+    }
+
+    .input.label{
+        weight:13.0556rem;
+        height: 3.4444rem;
+    }
+    .input{
+        margin-bottom: 2.7778rem;
+        weight: 62.6042%;
+        height: 3.4444rem;
+    }   
+    .input .message{
+        margin-bottom: 2.7778rem;
+        weight: 62.6042%;
+        height: 13.2222rem;   
+
+    }
+    ::-webkit-input-placeholder{
+        weight: 50.3646%;
+        height: 3.4444rem;
+        font: #969696;
+        font-size: 1rem;
+        background-color: #F8F8F8;
+    }
+    .contact-form-bottom-action{
+        display: inline-block;
+    } 
+    .btn{
+        font: 1.3889rem;
+        color: #ffffff;
+        background-color: #060606;
+        border: none;
+        margin-left: 13.0833rem;
+        padding-left: 4.8889rem; 
+        padding-top: 1rem;
+        padding-right: 4.8889rem; 
+        padding-bottom: 0.8889rem;
+        box-shadow: 0 4px 8px darkgray;
+        
+    }
+    .btn:hover{
+        cursor: pointer;
+        box-shadow: 0 4px 8px gray;
+    }
+    .container3{
+        weight: 100% ;
+        float left: ;
+        height: 19.1111rem;
+        background-color: #69779B;
+        color: #ffffff;
+        
+    }
+    .container4{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        weight: 100% ;
+        height: 19.1111rem;
+        background-color: #060606;
+        color: #ffffff;
+
+    }
+    .note4{
+        weight:15.8333%;
+        height: 8rem;
+        margin-top: 2.6111rem;
+        margin-left: 5.6%;
+        font-weight: 700;
+
+    }
+    .note5{
+        weight:12.8333rem;
+        height: 2.8333rem;
+        margin-top: 3.5rem;
+        margin-left: 7.6944rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .note6{
+        weight:9.7222rem;
+        height: 2.8333rem;
+        margin-top: 3.5rem;
+        padding-left: 6px;
+        font-size: 2rem;
+        font-weight: 700;
+        color:#F5A623  ;       
+    }
+    .note7{
+        weight: 8.8542%;
+        height: 2.8333rem;
+        margin-top: 3.5rem;
+        margin-left: 18.1667rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .note8{
+        weight:21.0833rem;
+        height: 2.8333rem;
+        margin-top:7.3889rem;
+        margin-left: 7.6944rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+   
 
 
-.container-you-can-write-us-here{
-    padding: left 0;;
-    width: 100%;
-    height: 11.4444rem;
-    font-size: 4rem;
-    color: #060606 ;
-}
-
-.container-middle-2{
-    width: 62.63%; 
-    height: 38.5556rem;
-    padding-top: 2.6111rem;
-    padding-left: 6rem;
-    background-color:#FFFFFF ;
-}
-
-.right-column-container{
-    padding-left: 3.3333rem;
-    padding-top: 2.5556rem;
-    padding-right: 3.3333rem;
-}
-
-
-input {
-    display: block;
-    width: 100%;
-    border: 0;
-    border-bottom: solid 1px grey;
-    padding-bottom: 6px ;
-    padding-left: 0 ;
-}
-
-input:focus{
-    border: none;
-    outline:none;
-    border-bottom: 1px solid #808080;
-
-}
-
-.input {
-    margin-bottom: 34px;
-}
-label{
-    display: block;
-    font: normal normal normal 0.7222rem/0.8333rem Gill Sans Mt;
-    text-transform: uppercase;
-    color: #000;
-}
-.container-down{
-    width: 100%;
-    height: 19.1111rem;
-    background-color:#69779B ;
-}
-.container-bottom{
-    width: 100%;
-    height: 19.1111rem;
-    background-color:#060606 ;
-}
-
+</style>
 
 
